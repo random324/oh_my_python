@@ -1,0 +1,5 @@
+print ("programing","essential","in",sep="***" ,end="...")
+print(type(4))
+print(271E12)
+print(10 <= 10)
+print("\"i'm\"",'"\"learning"\"',"\"\"\"python\"\"\"",sep="\n")
