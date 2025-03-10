@@ -42,8 +42,6 @@ elif barang == "Kipas":
     harga=100000
     nama="Kipas"
 else:
-    harga=0
-    nama=""
     print("barang tidak tersedia")
 if harga > 0:
     kuantitas=int(input("masukkan jumlah barang "+nama+" :"))
@@ -67,4 +65,8 @@ if harga > 0:
             print("Total discount anda :",discount)
             print("Total pembayaran :", total_bayar)
         else:
-            print("anda tidak membeli apapun")
+            print("Terjadi Kesalagan 'Discount' ")
+    else:
+        print("Terjadi kesalahan")        
+else:
+    print("Terjadi kesalahan")            
